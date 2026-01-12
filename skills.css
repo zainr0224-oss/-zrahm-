@@ -1,0 +1,63 @@
+body {
+  background-color: lightgray;
+  color: black;
+  font-family: "Fuzzy Bubbles",sans-serif;
+}
+
+
+nav {
+  display: flex;
+  padding: 15px 25px;
+  border-bottom: 2px solid white;
+  font-size: 18px;
+}
+
+nav li {
+  list-style: none;
+  padding: 0 25px;
+  cursor: pointer;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+}
+
+h1 {
+  margin: 30px 0;
+}
+
+h1, h2, h3{ 
+  color: black;
+}
+
+h3{
+  margin:30px 0 ;
+}
+
+
+section {
+  padding: 0 40px;
+}
+
+section p {
+  font-size: 16px;
+  max-width: 800px;
+}
+
+
+body.dark {
+  background-color: black;
+  color: white;
+}
+
+body.dark h1,
+body.dark h2,
+body.dark h3,
+body.dark p,
+body.dark a,
+body.dark li {
+  color: white;
+}
+
+

@@ -1,0 +1,76 @@
+body {
+    background-color: lightgray;
+    color: black;
+    font-family: "Fuzzy Bubbles",sans-serif;
+    
+}
+
+
+nav {
+    display: flex;
+    padding: 15px 25px;
+    border-bottom: 2px solid white;
+    font-size: 18px;
+}
+
+
+
+nav li {
+    list-style: none;
+    padding: 0 25px;
+    cursor: pointer;
+}
+
+
+
+
+h2{
+    color: black;
+    
+    margin-left: 0px;
+}
+
+h3{
+    color: black;
+    margin-top: 30px;
+}
+
+h4{
+    color: black;
+    margin-top: 30px;
+}
+main {
+    padding: 0 40px;
+}
+
+main p {
+    font-size: 18px;
+    max-width: 800px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.zainimg{
+    display: block;
+    width: 250px;
+    margin: 450px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+body.dark {
+  background-color: black;
+  color: white;
+}
+
+body.dark h1,
+body.dark h2,
+body.dark p,
+body.dark a,
+body.dark li {
+  color: white;
+}
